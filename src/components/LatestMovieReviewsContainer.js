@@ -18,11 +18,11 @@ const URL = 'https://api.nytimes.com/svc/movies/v2/reviews/all.json?'
       }
     }
     
-    componentDidMount(){
-      fetch(URL)
-      .then(res => res.json)
-      .then(reviews => this.setState({reviews: response.results })); 
-    }
+    componentDidMount() {
+    fetch(URL)
+      .then(res => res.json())
+      .then(reviews => this.setState({ reviews: response.results }))
+  }
     
     render(){
      return(
