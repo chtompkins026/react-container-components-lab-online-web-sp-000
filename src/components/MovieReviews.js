@@ -9,3 +9,5 @@ const Review = ({headline, byline, link}) => {
 }; 
 
 const MovieReviews = ({reviews}) => <div className="review-list"> {reviews.map(Review)}</div> 
+
+export default MovieReviews
