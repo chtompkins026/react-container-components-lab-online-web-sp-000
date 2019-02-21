@@ -14,7 +14,7 @@ const URL = 'https://api.nytimes.com/svc/movies/v2/reviews/all.json?'
     constructor(){
       super(); 
       this.state={
-        reviews:[]; 
+        reviews:[], 
       }
     }
     
@@ -27,7 +27,7 @@ const URL = 'https://api.nytimes.com/svc/movies/v2/reviews/all.json?'
     render(){
       return(
         <div className="latest-movie-revies">
-          <MovieReviews reviews={this.state.reviews}/> 
+          <MovieReviews reviews={this.state.reviews} /> 
         </div> 
         )
     }
