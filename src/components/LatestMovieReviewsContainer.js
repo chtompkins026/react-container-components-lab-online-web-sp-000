@@ -29,6 +29,5 @@ const URL = 'https://api.nytimes.com/svc/movies/v2/reviews/all.json?'
       <div className="latest-movie-reviews">
         <MovieReviews reviews={this.state.reviews} />
       </div>
-
     }
   }
